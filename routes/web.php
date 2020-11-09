@@ -30,10 +30,6 @@ Auth::routes(['register' => false]);
 // Route::get('/','PagesController@index')->name('pages.home');
 // Route::get('/blog/{post}','PostController@show')->name('posts.show');
 
-
-
-
-
 // Admin routes
 Route::group([
     'prefix' => 'admin',
